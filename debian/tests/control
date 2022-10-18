@@ -1,0 +1,3 @@
+Tests: run-unit-test
+Depends: @, r-cran-testthat (>= 3.0.0~), r-cran-xml2
+Restrictions: allow-stderr

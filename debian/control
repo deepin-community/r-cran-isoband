@@ -1,0 +1,26 @@
+Source: r-cran-isoband
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Dylan Aïssi <daissi@debian.org>
+Section: gnu-r
+Testsuite: autopkgtest-pkg-r
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               dh-r,
+               r-base-dev
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-isoband
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-isoband.git
+Homepage: https://cran.r-project.org/package=isoband
+Rules-Requires-Root: no
+
+Package: r-cran-isoband
+Architecture: any
+Depends: ${R:Depends},
+         ${shlibs:Depends},
+         ${misc:Depends}
+Recommends: ${R:Recommends}
+Suggests: ${R:Suggests}
+Description: Generate Isolines and Isobands from Regularly Spaced Elevation
+ Grids A fast C++ implementation to generate contour lines
+ (isolines) and contour polygons (isobands) from regularly spaced
+ grids containing elevation data.
