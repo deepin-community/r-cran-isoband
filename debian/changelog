@@ -1,3 +1,9 @@
+r-cran-isoband (0.2.5-1deepin0) unstable; urgency=medium
+
+  * No source change upload against GCC 12.
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Fri, 20 Sep 2024 12:17:32 +0800
+
 r-cran-isoband (0.2.5-1) unstable; urgency=medium
 
   * Team upload.
